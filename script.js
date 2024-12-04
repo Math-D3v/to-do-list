@@ -1,4 +1,4 @@
-const localStorageKey = 'to-do-list-gn'
+const localStorageKey = 'to-do-list'
 
 function validateIfExistsNewTask()
 {
@@ -21,7 +21,7 @@ function newTask()
     }
     else if(validateIfExistsNewTask())
     {
-        alert('Já existe uma task com essa descrição')
+        alert('Já existe uma tarefa com essa descrição')
     }
     else
     {
